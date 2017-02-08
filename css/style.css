@@ -1,0 +1,91 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #eef2f6;
+}
+
+.container {
+  width: auto;
+  max-width: 720px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.server {
+  background-color: #f6f9fc;
+}
+
+.server .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.duck-status {
+  float: right;
+}
+
+.duck-status img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+p.uptime {
+  font-size: 14px;
+}
+
+.server .stats {
+  margin-bottom: 30px;
+}
+
+.bar {
+  background-color: #a2e798;
+  min-height: 30px;
+  min-width: 7px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  float: left;
+}
+
+.bar:hover {
+  background-color: #6CDB56;
+}
+
+.yellow {
+  background-color: #FFDE24;
+}
+
+.red {
+
+}
+
+
+/*
+  Past incidents area
+*/
+.past-incidents {
+  padding: 0px 10px;
+}
+
+.past-incidents .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.past-incidents p {
+  margin-bottom: 0px;
+}
+
+.past-incidents hr {
+  margin-top: .25rem;
+}
+
+.past-incidents .card {
+  margin-bottom: 20px;
+}
